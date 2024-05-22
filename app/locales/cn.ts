@@ -68,7 +68,7 @@ const cn = {
     Rename: "重命名对话",
     Typing: "正在输入…",
     Input: (submitKey: string) => {
-      var inputHints = `输入内容`;
+      var inputHints = `与NylesAI交谈`;
       /* if (submitKey === String(SubmitKey.Enter)) {
         inputHints += "，Shift + Enter 换行";
       } */

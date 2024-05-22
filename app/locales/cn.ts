@@ -68,11 +68,11 @@ const cn = {
     Rename: "重命名对话",
     Typing: "正在输入…",
     Input: (submitKey: string) => {
-      var inputHints = `${submitKey} 发送`;
-      if (submitKey === String(SubmitKey.Enter)) {
+      var inputHints = `输入内容`;
+      /* if (submitKey === String(SubmitKey.Enter)) {
         inputHints += "，Shift + Enter 换行";
-      }
-      return inputHints + "，/ 补全，: 命令";
+      } */
+      return inputHints /*  + "，/ 补全，: 命令" */;
     },
     Send: "发送",
     Config: {

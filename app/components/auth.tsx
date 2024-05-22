@@ -52,7 +52,7 @@ export function AuthPage() {
       />
       {!accessStore.hideUserApiKey ? (
         <>
-          <div className={styles["auth-tips"]}>{Locale.Auth.SubTips}</div>
+          {/* <div className={styles["auth-tips"]}>{Locale.Auth.SubTips}</div>
           <input
             className={styles["auth-input"]}
             type="password"
@@ -74,7 +74,7 @@ export function AuthPage() {
                 (access) => (access.googleApiKey = e.currentTarget.value),
               );
             }}
-          />
+          />          */}
         </>
       ) : null}
 

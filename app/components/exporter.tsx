@@ -550,7 +550,6 @@ export function ImagePreviewer(props: {
             <div className={styles["main-title"]}>NylesAI</div>
             <div className={styles["sub-title"]}>
               修改自NextChat开源框架，致敬作者：Yidadaa
-              链接：github.com/Yidadaa/ChatGPT-Next-Web
             </div>
             <div className={styles["icons"]}>
               <ExportAvatar avatar={config.avatar} />

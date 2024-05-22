@@ -9,7 +9,7 @@
   },
   "package": {
     "productName": "NylesAI",
-    "version": "2.12.3"
+    "version": "1.0"
   },
   "tauri": {
     "allowlist": {

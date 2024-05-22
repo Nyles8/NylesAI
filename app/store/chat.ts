@@ -400,7 +400,6 @@ export const useChatStore = createPersistStore(
               prettyObject({
                 error: true,
                 message: error.message,
-                去除输错api和输错密码的报错,
               });
             botMessage.streaming = false;
             userMessage.isError = !isAborted;

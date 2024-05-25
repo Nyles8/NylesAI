@@ -176,7 +176,7 @@ function PromptToast(props: {
   const session = chatStore.currentSession();
   const context = session.mask.context;
 
-  return (
+  /* 去除弹出预设提示词 return (
     <div className={styles["prompt-toast"]} key="prompt-toast">
       {props.showToast && (
         <div
@@ -194,7 +194,7 @@ function PromptToast(props: {
         <SessionConfigModel onClose={() => props.setShowModal(false)} />
       )}
     </div>
-  );
+  ); */
 }
 
 function useSubmitHandler() {

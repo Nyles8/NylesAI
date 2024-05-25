@@ -383,7 +383,8 @@ const en: LocaleType = {
   },
   Store: {
     DefaultTopic: "New Conversation",
-    BotHello: "Hello! How can I assist you today?",
+    BotHello:
+      "Hello! I'm Nyles' smart assistant. Whether you need questions answered, work done, or advice, I'm here to help, so have fun exploring! \n(Optimized prompt words can complete almost all tasks on the earth, learn more input: prompt project)\n\nClick the robot icon below to change the model.",
     Error: "Something went wrong, please try again later.",
     Prompt: {
       History: (content: string) =>

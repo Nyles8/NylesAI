@@ -80,7 +80,7 @@ export const useSyncStore = createPersistStore(
         location.reload();
       } catch (e) {
         console.error("[Import]", e);
-        /* 去除预设提示词弹窗 showToast(Locale.Settings.Sync.ImportFailed); */
+        showToast(Locale.Settings.Sync.ImportFailed);
       }
     },
 

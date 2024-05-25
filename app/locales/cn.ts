@@ -11,8 +11,8 @@ const cn = {
       : "访问密码不正确或为空，请在 [登录](/#/auth) 页输入正确的访问密码哦",
   },
   Auth: {
-    Title: "需要密码",
-    Tips: "找我问密码才能用哦",
+    Title: "身份验证",
+    Tips: "请在此处输入密码",
     SubTips: "或者输入你的 OpenAI 或 Google API 密钥",
     Input: "此处填写密码",
     Confirm: "确认",

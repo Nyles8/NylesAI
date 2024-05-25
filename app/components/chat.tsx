@@ -1269,8 +1269,8 @@ function _Chat() {
         </div>
 
         <PromptToast
-          showToast={false /* 去掉预设词框 !hitBottom */}
-          showModal={false /* 去掉模型框 showPromptModal */}
+          showToast={!hitBottom}
+          showModal={showPromptModal}
           setShowModal={setShowPromptModal}
         />
       </div>

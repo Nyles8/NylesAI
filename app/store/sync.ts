@@ -80,7 +80,7 @@ export const useSyncStore = createPersistStore(
         location.reload();
       } catch (e) {
         console.error("[Import]", e);
-        showToast(Locale.Settings.Sync.ImportFailed);
+        /* 去除预设提示词弹窗 showToast(Locale.Settings.Sync.ImportFailed); */
       }
     },
 
@@ -100,15 +100,17 @@ export const useSyncStore = createPersistStore(
         const remoteState = await client.get(config.username);
         if (!remoteState || remoteState === "") {
           await client.set(config.username, JSON.stringify(localState));
-          console.log("[Sync] Remote state is empty, using local state instead.");
-          return
+          console.log(
+            "[Sync] Remote state is empty, using local state instead.",
+          );
+          return;
         } else {
           const parsedRemoteState = JSON.parse(
             await client.get(config.username),
           ) as AppState;
           mergeAppState(localState, parsedRemoteState);
           setLocalAppState(localState);
-       } 
+        }
       } catch (e) {
         console.log("[Sync] failed to get remote state", e);
         throw e;

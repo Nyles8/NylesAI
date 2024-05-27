@@ -158,7 +158,7 @@ export function SideBar(props: { className?: string }) {
           Nyles AI
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          轻巧 流畅
+          轻巧 流畅 无梯直连
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />

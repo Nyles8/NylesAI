@@ -547,7 +547,7 @@ export function ImagePreviewer(props: {
           </div>
 
           <div>
-            <div className={styles["main-title"]}>NylesAI</div>
+            <div className={styles["main-title"]}>Nyles AI</div>
             <div className={styles["sub-title"]}>
               修改自NextChat开源框架，致敬作者：Yidadaa
             </div>

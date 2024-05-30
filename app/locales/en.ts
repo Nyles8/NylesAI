@@ -384,7 +384,7 @@ const en: LocaleType = {
   Store: {
     DefaultTopic: "New Conversation",
     BotHello:
-      "Hello, welcome to Nyles AI! What can I do for you today? \ n For understanding the questioning skills, please enter: prompt project \ n \ n Click the robot icon below to change the model",
+      "Hello, welcome to Nyles AI! \nWhat can I do for you today?  For understanding the questioning skills, please enter: prompt project \ n \ n Click the robot icon below to change the model",
     Error: "Something went wrong, please try again later.",
     Prompt: {
       History: (content: string) =>

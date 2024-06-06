@@ -10,7 +10,7 @@ import { GoogleTagManager } from "@next/third-parties/google";
 const serverConfig = getServerSideConfig();
 
 export const metadata: Metadata = {
-  title: "NylesAI",
+  title: "Nyles AI",
   description: "轻松 快捷 安全的AI助手",
   viewport: {
     width: "device-width",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "NylesAI",
+    title: "Nyles AI",
     statusBarStyle: "default",
   },
 };

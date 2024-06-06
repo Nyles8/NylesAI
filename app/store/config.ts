@@ -31,7 +31,7 @@ export const DEFAULT_CONFIG = {
 
   submitKey: SubmitKey.Enter,
   avatar: "1f984",        //用户头像
-  fontSize: 15,           //字体
+  fontSize: 14,           //字体
   theme: Theme.Light,     //默认主题
   tightBorder: true,      //窄边框
   sendPreviewBubble: false,   //预览用户消息

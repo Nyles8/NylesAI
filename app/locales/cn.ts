@@ -610,7 +610,7 @@ const cn = {
   Store: {
     DefaultTopic: "新的聊天",
     BotHello:
-      "您好，欢迎使用Nyles AI！ 今天我能为您做些什么？\n 了解提问技巧请输入：提示工程\n\n点击下方机器人图标可以更换模型哦",
+      "主人你好！今天要开心哦",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,

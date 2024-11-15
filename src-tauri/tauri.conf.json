@@ -8,8 +8,13 @@
     "withGlobalTauri": true
   },
   "package": {
+<<<<<<< HEAD
     "productName": "NylesAI",
     "version": "2.12.3"
+=======
+    "productName": "NextChat",
+    "version": "2.15.8"
+>>>>>>> upstream/main
   },
   "tauri": {
     "allowlist": {
@@ -50,6 +55,11 @@
       },
       "notification": {
         "all": true
+      },
+      "http": {
+        "all": true,
+        "request": true,
+        "scope": ["https://*", "http://*"]
       }
     },
     "bundle": {
@@ -94,7 +104,7 @@
       "endpoints": [
         "https://github.com/Nylesssss/NylesAI"
       ],
-      "dialog": false,
+      "dialog": true,
       "windows": {
         "installMode": "passive"
       },
